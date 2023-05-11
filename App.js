@@ -12,8 +12,8 @@ export default function App() {
   const [userInfo, setUserInfo] = useState(null);
 
   const [request, response, promptAsync] = Google.useAuthRequest({
-    androidClientId: "3271xx-xxxxx.apps.googleusercontent.com",
-    expoClientId: "3271xx-xxxxx.apps.googleusercontent.com"
+    androidClientId: "3271xx-xxxxx.apps.googleusercontent.com", //bu alana androidClientId'ı yapıştırabilirsiniz
+    expoClientId: "3271xx-xxxxx.apps.googleusercontent.com" // bu alana expoClientId'ı yapıştırabilirsiniz
   });
 
   useEffect(() => {
